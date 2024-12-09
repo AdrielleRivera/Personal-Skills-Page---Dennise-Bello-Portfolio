@@ -46,25 +46,34 @@ nav .denny:hover{
 
 /*Css styles for the main elements*/
 .first-logo{
-    max-width: 550px;
+    /*max-width: 550px;
     width: 50%;
     position: absolute;
     left: -55px;
-    top: 110px;
+    top: 110px;*/
+    max-width: 800px;
+    width: 60%;
+    position: absolute;
+    left: 50%; /* Move to the center horizontally */
+    top: 70px; /* Adjust as needed for vertical positioning */
+    transform: translateX(-50%); /* Center the element */
+    justify-content: center;
+    text-align: center;
 }
+
 .second-logo{
     max-width: 550px;
     width: 60%;
     position: absolute;
-    left: 1px;
-    top: 220px;
+    left: 18%;
+    top: 113px;
 }
 .third-logo{
-    max-width: 700px;
+    max-width: 550px;
     width: 60%;
     position: absolute;
-    left: 55%; /* Move to the center horizontally */
-    top: 70px; /* Adjust as needed for vertical positioning */
+    left: 57%; /* Move to the center horizontally */
+    top: 265px; /* Adjust as needed for vertical positioning */
     transform: translateX(-50%); /* Center the element */
     justify-content: center;
     text-align: center;
@@ -73,17 +82,11 @@ nav .denny:hover{
     max-width: 550px;
     width: 60%;
     position: absolute;
-    left: 70%;
-    top: 65px;
-    z-index: -1;
+    left: 60%;
+    top: 245px;
+    z-index: 1;
 }
-.fifth-logo{
-    max-width: 550px;
-    width: 60%;
-    position: absolute;
-    left: 85%;
-    top: 470px;
-}
+
 
 /*Css styles for the main elements above*/
 
@@ -154,26 +157,24 @@ footer > p:first-of-type {
 
     /*Put the logo or text here to become responsive*/
     .first-logo{
-        width:65%;
-        top:65px;
+        width:90%;
+        top:55px;
         
     }
     .second-logo{
         width:60%;
-        top: 300px;
+        top: 85px;
+        left:-20px;
     }
     .third-logo{
-        top: 155px;
-        width: 75%;
-        left: 60%;
+        width: 60%;
+        left: 63%;
+        top: 168px;
     }
     .fourth-logo{
-        width: 50%;
-        top: 0px;
-        left: 57%;
-    }
-    .fifth-logo{
-        width: 50%;
+        width: 60%;
+        top: 160px;
+        left: 68%;
     }
 
     /*This is the burger button part!! yahoo(sorry this is an achievement for me)*/
